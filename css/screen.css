@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: Times, Arial;
+    color: #000;       
+}
+
+/* TAGS */
+body{
+    background: url('../img/background.png');
+}
+
+a{ text-decoration: none; }
+img{ border: none; }
+li{ list-style-type: none; }
+h1{ font-size: 21px; }
+h2{ font-size: 18px; }
+/* FIM TAGS */
+
+/* CLASSES */
+.left{ float: left; }
+.right{ float: right; }
+.clear{ clear: both; }
+.none{ display: none; }
+.cor{ color: #2E8B57; }
+/* FIM CLASSES  */
+
+#site{
+    width:980px;
+    margin: auto;
+}
+
+/* HEADER */
+#header{
+    height:200px;
+    background: url('../img/bgHeader.png');
+    border-bottom: solid 5px #C50E22;
+}
+    
+/*    
+    #header img{
+        margin-top: 10px;
+        margin-left: 10px;           
+    }
+*/
+/* FIM HEADER */
+
+/* MENU */
+#menu{
+    height: 40px;  
+    text-align: center;
+    background: whitesmoke;    
+}
+    
+    #menu ul li{
+        margin-right: 10px;
+        margin-top: 8px;
+        display: inline-block;
+    }
+
+        #menu ul li a{
+            display: block;
+            padding: 5px;  
+        }
+        
+        #menu ul li a:hover{
+            color: white;
+            background: #2E8B57;
+        }
+/* FIM MENU */
+
+
+/* NOTÍCIAS */
+#noticias{
+    height: 380px;
+    width: 230px;
+    padding: 10px;
+    float: left;
+    background: ghostwhite;
+}    
+/* FIM NOTÍCIAS */
+
+
+/* CONTEÚDO */
+#conteudo{
+    width: 730px;
+    height: 400px;
+    float: left; 
+    background: gainsboro;   
+}
+/* FIM CONTEÚDO */
+
+
+/* FOOTER */
+#footer{
+    height: 100px;
+    background: beige;
+    position: relative;
+    clear: both;    
+}
+/* FIM FOOTER */
+
+
+
+
+
+
+
+
