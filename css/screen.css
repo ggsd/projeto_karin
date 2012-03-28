@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 0px;
     font-size: 12px;
     font-family: Times, Arial;
     color: #000;       
@@ -15,7 +15,7 @@ a{ text-decoration: none; }
 img{ border: none; }
 li{ list-style-type: none; }
 h1{ font-size: 21px; }
-h2{ font-size: 18px; }
+h2{ font-size: 18px; font-family: sans-serif; text-align:center; color:#000; }
 /* FIM TAGS */
 
 /* CLASSES */
@@ -29,6 +29,8 @@ h2{ font-size: 18px; }
 #site{
     width:980px;
     margin: auto;
+    background: #f2fff2 ;
+
 }
 
 /* HEADER */
@@ -48,15 +50,13 @@ h2{ font-size: 18px; }
 
 /* MENU */
 #menu{
-    height: 40px;  
-    text-align: center;
-    background: whitesmoke;    
+    height: 180px;
+    width: 200px;
+    text-align: center;     
 }
     
-    #menu ul li{
-        margin-right: 10px;
-        margin-top: 8px;
-        display: inline-block;
+    #menu ul li{        
+        display: block;
     }
 
         #menu ul li a{
@@ -70,32 +70,71 @@ h2{ font-size: 18px; }
         }
 /* FIM MENU */
 
+#lateral{
+    
+    float:left;
+    height: 560px;
+    padding:0;
+    margin:0;
+}
 
 /* NOTÍCIAS */
 #noticias{
     height: 380px;
-    width: 230px;
+    width: 180px;
     padding: 10px;
-    float: left;
-    background: ghostwhite;
-}    
+    
+}
+
+#estiloNoticia{
+    
+    font-family: sans-serif;
+    color: #000;
+    font-size:12px;
+    font-weight: normal;
+    
+} 
+
+#estiloNoticia:hover{
+    
+    font-family: sans-serif;
+    color: #000;
+    font-size:12px;
+    font-weight: bolder;
+    background:#e4fee4;
+}
 /* FIM NOTÍCIAS */
 
 
 /* CONTEÚDO */
 #conteudo{
-    width: 730px;
-    height: 400px;
-    float: left; 
-    background: gainsboro;   
+    width: 780px;
+    height: 560px;
+    float:right; 
+       
 }
+
+.info{
+    
+    width:390px;
+    float: left;
+    text-align:center;
+}
+
+.info p{
+    
+    font-size:12px;
+    font-family:sans-serif;
+}
+
 /* FIM CONTEÚDO */
 
 
 /* FOOTER */
 #footer{
-    height: 100px;
-    background: beige;
+    border-top: 5px solid #009037;
+    height: 50px;
+    background:#c50e21;
     position: relative;
     clear: both;    
 }

@@ -17,27 +17,31 @@
                 </a>
             </div>
             
-            <div id="menu">
-                <ul>
-                    <li><a href="./index.php">HOME</a></li>
-                    <li><a href="./sobre.php">SOBRE</a></li>
-                    <li><a href="./noticias.php">NOT&Iacute;CIAS</a></li>
-                    <li><a href="./produtos.php">PRODUTOS</a></li>
-                    <li><a href="./contato.php">CONTATO</a></li>
-                </ul>    
+            <div id="lateral">            
+                <div id="menu">
+                    <ul>
+                        <li><a href="./index.php">HOME</a></li>
+                        <li><a href="./sobre.php">SOBRE</a></li>
+                        <li><a href="./noticias.php">NOT&Iacute;CIAS</a></li>
+                        <li><a href="./produtos.php">PRODUTOS</a></li>
+                        <li><a href="./contato.php">CONTATO</a></li>
+                    </ul>    
+                </div>
+                
+                <div id="noticias">
+                    <h2>Not&iacute;cias r&aacute;pidas</h2>
+                    
+                    <br />                
+                
+                    <? for($i = 0; $i < 4; $i++){ ?>
+                    
+                    <a href="./noticias.php?cod=<? echo $i+1;//$result[$i]["cod_noticia"] ?>">
+                        <strong>24/03/2012</strong> - <p id="estiloNoticia">Mustang ridículo foi construído pela Microsoft.</p>
+                    </a>                
+                    <br /><br />
+                                    
+                    <? } ?>                                        
+                </div>
             </div>
             
-            <div id="noticias">
-                <h2>Not&iacute;cias r&aacute;pidas</h2>
-                
-                <br />                
-            
-                <? for($i = 0; $i < 7; $i++){ ?>
-                
-                <a href="./noticias.php?cod=<? echo $i+1;//$result[$i]["cod_noticia"] ?>">
-                    <strong>24/03/2012</strong> - Mustang ridículo foi construído pela Microsoft.
-                </a>                
-                <br /><br />
-                                
-                <? } ?>                                        
-            </div>
+    
