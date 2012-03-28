@@ -36,7 +36,8 @@
                     <? for($i = 0; $i < 4; $i++){ ?>
                     
                     <a href="./noticias.php?cod=<? echo $i+1;//$result[$i]["cod_noticia"] ?>">
-                        <strong>24/03/2012</strong> - <p id="estiloNoticia">Mustang ridículo foi construído pela Microsoft.</p>
+                        <strong>24/03/2012</strong> 
+                        <p id="estiloNoticia">Mustang ridículo foi construído pela Microsoft.</p>
                     </a>                
                     <br /><br />
                                     
