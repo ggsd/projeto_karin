@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0px;
     font-size: 12px;
-    font-family: Times, Arial;
+    font-family: 'Ubuntu Condensed', sans-serif, Times, Arial;
     color: #000;       
 }
 
@@ -15,7 +15,7 @@ a{ text-decoration: none; }
 img{ border: none; }
 li{ list-style-type: none; }
 h1{ font-size: 21px; }
-h2{ font-size: 18px; font-family: sans-serif; text-align:center; color:#000; }
+h2{ font-size: 18px; }
 /* FIM TAGS */
 
 /* CLASSES */
@@ -29,8 +29,15 @@ h2{ font-size: 18px; font-family: sans-serif; text-align:center; color:#000; }
 #site{
     width:980px;
     margin: auto;
-    background: #f2fff2;
-    /*#f2fff2*/
+    background: #f2fff2 ;
+    /*background-color: rgba(200,200,200,0.2);*/
+}
+
+#shadow{    
+    width: 1000px;
+    height: 100%;
+    margin:auto;
+    background: url('../img/shadow.png') repeat-y;
 }
 
 /* HEADER */
@@ -48,8 +55,6 @@ h2{ font-size: 18px; font-family: sans-serif; text-align:center; color:#000; }
 */
 /* FIM HEADER */
 
-/* MENU */
-
 #lateral{    
     float:left;
     height: 560px;
@@ -57,10 +62,11 @@ h2{ font-size: 18px; font-family: sans-serif; text-align:center; color:#000; }
     margin:0;
 }
 
+/* MENU */
 #menu{
     width: 200px;
     text-align: center;
-    border-bottom: 5px solid #C50E22;     
+    border-bottom: solid 5px #C50E22;
 }
     
     #menu ul li{        
@@ -82,22 +88,18 @@ h2{ font-size: 18px; font-family: sans-serif; text-align:center; color:#000; }
 #noticias{
     height: 380px;
     width: 180px;
-    padding: 10px;    
+    padding: 10px;
 }
 
 #estiloNoticia{    
-    font-family: sans-serif;
-    color: #000;
-    font-size:12px;
+    font-size:15px;
     font-weight: normal;    
 } 
 
 #estiloNoticia:hover{    
-    font-family: sans-serif;
-    color: #000;
-    font-size:12px;
-    font-weight: bolder;
+    font-size:15px;
     background:#e4fee4;
+    text-decoration: underline;
 }
 /* FIM NOTÍCIAS */
 
@@ -108,20 +110,16 @@ h2{ font-size: 18px; font-family: sans-serif; text-align:center; color:#000; }
     float:right;        
 }
 
-    #conteudo #img{
-       height: 380px; 
-    }
-    
 .info{    
-    width:380px;
+    width:390px;
     float: left;
+    text-align:center;
 }
 
-    .info p{
-        
-        font-size:12px;
-        font-family:sans-serif;
-    }
+.info p{    
+    font-size:16px;    
+}
+
 /* FIM CONTEÚDO */
 
 
@@ -132,6 +130,13 @@ h2{ font-size: 18px; font-family: sans-serif; text-align:center; color:#000; }
     background:#c50e21;
     position: relative;
     clear: both;    
+}
+
+#contCredito{    
+    margin-top:30px;
+    text-align: center;
+    font-size:14px;
+    color:#fff;
 }
 /* FIM FOOTER */
 
